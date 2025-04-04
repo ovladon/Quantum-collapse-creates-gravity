@@ -1,0 +1,16 @@
+{
+    "G": 1.0,
+    "L": 10.0,
+    "N": 64,
+    "steps_per_cycle": 50,
+    "num_cycles": 2,
+    "dt": 0.05,
+    "m": 1.0,
+    "boundary_condition": "periodic",
+    "collapse_rate": 0.16193312594637177,
+    "collapse_sigma": 0.23509011928361997,
+    "collapse_amplitude": 0.7319408541953779,
+    "continuous_noise_amplitude": 0.0067099489625431705,
+    "density_decay": 0.9724069055522176,
+    "relativistic_factor": 0.0079399220092712
+}

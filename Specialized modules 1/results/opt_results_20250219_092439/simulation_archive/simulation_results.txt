@@ -1,0 +1,2 @@
+Final slope: nan
+Runtime: 31.632025957107544 seconds

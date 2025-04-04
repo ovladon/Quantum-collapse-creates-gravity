@@ -1,0 +1,257 @@
+{
+    "best_overall": {
+        "candidate": {
+            "collapse_rate": 0.4098901095533758,
+            "collapse_sigma": 0.27644501726211845,
+            "collapse_amplitude": 0.5379061361702321,
+            "continuous_noise_amplitude": 0.0176426041858393,
+            "density_decay": 0.9823168258883612,
+            "relativistic_factor": 0.0008762886581977392
+        },
+        "fitness": -133.958542832825,
+        "slope": -4.934395417410254,
+        "energy_error": 17.25316139430578,
+        "final_result": "Excluded from JSON summary"
+    },
+    "all_generations": [
+        [
+            {
+                "candidate": {
+                    "collapse_rate": 0.25738473869890754,
+                    "collapse_sigma": 0.15696630729335123,
+                    "collapse_amplitude": 1.0091747367243284,
+                    "continuous_noise_amplitude": 0.008261012751264963,
+                    "density_decay": 0.9817964330057911,
+                    "relativistic_factor": 0.005686450659560783
+                },
+                "fitness": -2831.829011973155,
+                "slope": -4.711781245414074,
+                "energy_error": 283.1540793218569
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4968637588878978,
+                    "collapse_sigma": 0.134757241958628,
+                    "collapse_amplitude": 0.8399325605320831,
+                    "continuous_noise_amplitude": 0.018671082212726307,
+                    "density_decay": 0.9728300923257698,
+                    "relativistic_factor": 0.004315776630022064
+                },
+                "fitness": -3699.072864478291,
+                "slope": -4.706830337932124,
+                "energy_error": 369.8779694816223
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.1449490683657076,
+                    "collapse_amplitude": 0.5379061361702321,
+                    "continuous_noise_amplitude": 0.01437882438764301,
+                    "density_decay": 0.9872303601269058,
+                    "relativistic_factor": 0.008845088265538498
+                },
+                "fitness": -1695.7853572354684,
+                "slope": -4.884929477428646,
+                "energy_error": 169.5670286712897
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.35840330147920685,
+                    "collapse_sigma": 0.10644074676203795,
+                    "collapse_amplitude": 1.1245465846449247,
+                    "continuous_noise_amplitude": 0.013543780776798815,
+                    "density_decay": 0.955784093622086,
+                    "relativistic_factor": 0.00462542324542136
+                },
+                "fitness": -8483.256355086887,
+                "slope": -4.328992888008917,
+                "energy_error": 848.2585347974897
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.3210758418604932,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.966346049270903,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -356.40747554566445,
+                "slope": -5.350944006665865,
+                "energy_error": 35.60565315389986
+            }
+        ],
+        [
+            {
+                "candidate": {
+                    "collapse_rate": 0.3210758418604932,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.966346049270903,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -418.0926380820617,
+                "slope": -5.662301231598403,
+                "energy_error": 41.74303368504633
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.1449490683657076,
+                    "collapse_amplitude": 0.5379061361702321,
+                    "continuous_noise_amplitude": 0.01437882438764301,
+                    "density_decay": 0.9872303601269058,
+                    "relativistic_factor": 0.008845088265538498
+                },
+                "fitness": -1483.495504740437,
+                "slope": -4.792592982456617,
+                "energy_error": 148.32880977228936
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.3210758418604932,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.966346049270903,
+                    "continuous_noise_amplitude": 0.015104164572623596,
+                    "density_decay": 0.9872303601269058,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -441.99242557692554,
+                "slope": -5.816895147444384,
+                "energy_error": 44.11755304294812
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.5379061361702321,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -133.958542832825,
+                "slope": -5.521392723166913,
+                "energy_error": 13.34371501096581
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.1449490683657076,
+                    "collapse_amplitude": 0.5379061361702321,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9872303601269058,
+                    "relativistic_factor": 0.008845088265538498
+                },
+                "fitness": -1483.495827535142,
+                "slope": -4.792592961843556,
+                "energy_error": 148.32884204969858
+            }
+        ],
+        [
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.5379061361702321,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -140.11983638535992,
+                "slope": -5.292289512643376,
+                "energy_error": 13.982754687271653
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.3210758418604932,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.966346049270903,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -434.5938627766981,
+                "slope": -5.007967769830621,
+                "energy_error": 43.45858950068675
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.966346049270903,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -502.51158761613505,
+                "slope": -5.375540066909829,
+                "energy_error": 50.21360475492252
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.3261130084297813,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.5379061361702321,
+                    "continuous_noise_amplitude": 0.0176426041858393,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -135.252726097552,
+                "slope": -5.018826471507883,
+                "energy_error": 13.523389962604412
+            },
+            {
+                "candidate": {
+                    "collapse_rate": 0.4098901095533758,
+                    "collapse_sigma": 0.27644501726211845,
+                    "collapse_amplitude": 0.966346049270903,
+                    "continuous_noise_amplitude": 0.018736229046596196,
+                    "density_decay": 0.9823168258883612,
+                    "relativistic_factor": 0.0008762886581977392
+                },
+                "fitness": -467.34004468186316,
+                "slope": -5.292168524552703,
+                "energy_error": 46.70478761573104
+            }
+        ]
+    ],
+    "results_folder": "results/opt_results_20250219_113547",
+    "timestamp": "20250219_113547",
+    "base_params": {
+        "G": 1.0,
+        "L": 10.0,
+        "N": 64,
+        "steps_per_cycle": 50,
+        "num_cycles": 2,
+        "dt": 0.05,
+        "m": 1.0,
+        "boundary_condition": "periodic"
+    },
+    "initial_param_ranges": {
+        "collapse_rate": [
+            0.1,
+            0.5
+        ],
+        "collapse_sigma": [
+            0.1,
+            0.3
+        ],
+        "collapse_amplitude": [
+            0.5,
+            1.5
+        ],
+        "continuous_noise_amplitude": [
+            0.005,
+            0.02
+        ],
+        "density_decay": [
+            0.95,
+            0.99
+        ],
+        "relativistic_factor": [
+            0.0,
+            0.01
+        ]
+    }
+}

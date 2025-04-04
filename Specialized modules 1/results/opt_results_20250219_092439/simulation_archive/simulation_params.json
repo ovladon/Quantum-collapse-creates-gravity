@@ -1,0 +1,15 @@
+{
+    "G": 1.0,
+    "L": 10.0,
+    "N": 144,
+    "steps_per_cycle": 72,
+    "num_cycles": 2,
+    "dt": 0.05,
+    "m": 1.0,
+    "collapse_rate": 0.438681462455503,
+    "collapse_sigma": 0.2745002806491405,
+    "collapse_amplitude": 0.7840066335265223,
+    "continuous_noise_amplitude": 0.01965532134341296,
+    "density_decay": 0.9712108169072123,
+    "relativistic_factor": 0.006624738604055035
+}

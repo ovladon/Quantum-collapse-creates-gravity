@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,graphicx}
+\usepackage{hyperref}
+\title{Emergent Gravity from Quantum Collapse Dynamics: Tuning the Noise Exponent to \(-5\)}
+\author{Vlad Belciug\thanks{Independent Researcher, vladbelciug80@gmail.com} }
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We explore a novel mechanism for emergent gravity in which stochastic collapse events in a three-dimensional quantum field give rise to an effective gravitational potential. Using a GRW-inspired collapse model, we simulate the evolution of a field under continuous noise and sporadic collapse events. By analyzing the power spectral density of the emergent gravitational potential, we find that its noise exponent is close to \(-5\) --- a value predicted by scaling arguments for consistency with Newtonian gravity. We further employ a genetic algorithm to optimize collapse parameters, thereby reducing deviations from the target exponent. Our results, while promising, indicate significant energy nonconservation that must be addressed in future work. 
+\end{abstract}
+
+\section{Introduction}
+Emergent gravity is a promising framework in which gravity is not a fundamental force but arises from more basic quantum processes. In this work, we study a collapse-based mechanism inspired by the Ghirardi--Rimini--Weber (GRW) model. In our approach, collapse events, together with continuous stochastic noise, generate fluctuations in a quantum field, which, when analyzed, yield a gravitational potential with a characteristic noise spectrum. 
+
+\section{Theoretical Background}
+Dimensional analysis of the collapse-induced noise suggests that, for the gravitational potential to be consistent with Newtonian gravity, the power spectrum should scale as 
+\[
+P(k) \propto k^{-5},
+\]
+where \( k \) is the spatial frequency. The target exponent of \(-5\) serves as a benchmark for our numerical simulations.
+
+\section{Methodology}
+We implement a three-dimensional simulation of a quantum field subject to collapse events. The emergent gravitational potential is computed by solving the Poisson equation using FFT methods. A genetic algorithm is employed to optimize the collapse parameters such that the noise exponent in the power spectrum closely approaches \(-5\). Detailed descriptions of our numerical methods, convergence tests, and uncertainty quantification are provided in the supplementary materials.
+
+\section{Results}
+Our optimized parameter set yields a noise exponent of approximately \(-5.24 \pm 0.23\), which is consistent with the theoretical target within uncertainties. However, we note an energy nonconservation error of approximately 25.6\%, which suggests that further refinement of the numerical integration scheme is necessary.
+
+\section{Discussion}
+The closeness of the noise exponent to \(-5\) indicates that the collapse-induced noise in the quantum field may indeed be capable of generating a gravitational potential with the correct scaling behavior. Further work is needed to reduce energy errors and to compare these results with experimental or astrophysical data. 
+
+\section{Conclusion}
+Our study demonstrates that it is possible to tune a collapse-based simulation to achieve a noise exponent close to \(-5\), lending support to the idea that gravity might emerge from quantum collapse dynamics. Future work will focus on improving energy conservation and extending the analysis to a broader parameter range.
+
+\section*{Acknowledgments}
+We thank our colleagues for fruitful discussions. Particular thanks to Bianca Dittrich for her insights into emergent gravity.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
+

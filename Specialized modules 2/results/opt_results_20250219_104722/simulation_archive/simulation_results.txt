@@ -1,0 +1,3 @@
+Final slope: -5.090463676404263
+Energy error: 26.084477222933977
+Runtime: 1.4421734809875488 seconds

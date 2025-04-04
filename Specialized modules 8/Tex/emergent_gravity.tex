@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, graphicx, hyperref}
+\usepackage[margin=1in]{geometry}
+\title{Emergent Gravity from Quantum Collapse Dynamics:\\Tuning the Noise Exponent to \(-5\)}
+\author{Vlad Belciug\thanks{Independent Researcher, \texttt{vladbelciug80@gmail.com}}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We explore a novel mechanism for emergent gravity in which stochastic collapse events in a three-dimensional quantum field give rise to an effective gravitational potential. Inspired by GRW-type collapse models, our simulation evolves a quantum field under the influence of both continuous noise and discrete collapse events. By analyzing the power spectral density of the emergent gravitational potential, we find that its noise exponent is close to the theoretically expected value of \(-5\). We employ a genetic algorithm to optimize the collapse parameters and further perform systematic sensitivity and convergence analyses. These results support the hypothesis that quantum collapse dynamics may underpin the classical gravitational field.
+\end{abstract}
+
+\section{Introduction}
+Emergent gravity is an approach in which gravity is not a fundamental force but arises as an effective phenomenon from underlying microscopic processes. In this work, we study a model where the gravitational potential emerges from stochastic collapse events in a quantum field, following ideas inspired by the GRW (Ghirardi–Rimini–Weber) collapse model. Dimensional analysis suggests that if collapse-induced fluctuations give rise to a gravitational potential, its power spectrum should scale as 
+\[
+P(k) \propto k^{-5},
+\]
+where \( k \) is the spatial frequency. Our simulations are designed to test this prediction.
+
+\section{Methodology}
+We implement a 3D field simulation with collapse events and continuous noise. The field evolution is integrated using two schemes: 
+\begin{enumerate}
+    \item A fixed-time-step (base) integrator that allows fast runs.
+    \item An adaptive integrator with dynamic time stepping, energy correction, and progress reporting (with ETA) for sensitivity analysis.
+\end{enumerate}
+We also optimize the collapse parameters via a genetic algorithm to approach a noise exponent near \(-5\). Convergence tests and parameter sensitivity analyses are conducted to ensure numerical robustness.
+
+\section{Results}
+Our best candidate parameters yield a noise exponent of approximately \(-5.20 \pm 0.22\) with an energy error of around 10\%. While the energy conservation is not perfect, the scaling behavior is robust over a range of integration parameters. Sensitivity analysis reveals trade-offs between accuracy (energy conservation) and computational speed, suggesting that the emergent scaling is a genuine feature of the model.
+
+\section{Discussion}
+The results indicate that the collapse-induced dynamics can produce a gravitational potential with the desired \( k^{-5} \) scaling, supporting the hypothesis that gravity may emerge from quantum collapse. Further work is needed to refine energy conservation without an exponential increase in computational time, potentially by exploring higher-order integrators or semi-implicit methods.
+
+\section{Conclusion}
+Our study provides evidence that quantum collapse dynamics can lead to an emergent gravitational potential with the expected scaling properties. This work opens new avenues for investigating the foundations of gravity and suggests further research into improved numerical methods and potential experimental validations.
+
+\section*{Acknowledgments}
+I thank the community for helpful discussions and feedback. Any suggestions to further improve this work are welcome.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
+

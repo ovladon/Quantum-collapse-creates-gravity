@@ -1,0 +1,33 @@
+Systematic Error Analysis Report
+===============================
+
+Grid Resolution N=32, Time Step dt=0.05
+  Average Slope: -4.198 ± 0.156
+  Average Energy Error: 18.864 ± 8.380
+  Average Runtime: 0.141 seconds
+
+Grid Resolution N=32, Time Step dt=0.025
+  Average Slope: -3.680 ± 0.191
+  Average Energy Error: 21.074 ± 3.246
+  Average Runtime: 0.145 seconds
+
+Grid Resolution N=64, Time Step dt=0.05
+  Average Slope: -5.361 ± 0.793
+  Average Energy Error: 23.188 ± 9.210
+  Average Runtime: 1.212 seconds
+
+Grid Resolution N=64, Time Step dt=0.025
+  Average Slope: -4.370 ± 0.089
+  Average Energy Error: 26.502 ± 8.446
+  Average Runtime: 1.213 seconds
+
+Grid Resolution N=128, Time Step dt=0.05
+  Average Slope: -12.662 ± 0.158
+  Average Energy Error: 10797789085149987776690363716663303800606253528986201912030070638100086784.000 ± 633673287266066164502189663737493491404170324060195958233206060438519808.000
+  Average Runtime: 21.463 seconds
+
+Grid Resolution N=128, Time Step dt=0.025
+  Average Slope: -5.519 ± 0.015
+  Average Energy Error: 16.173 ± 4.182
+  Average Runtime: 22.399 seconds
+
